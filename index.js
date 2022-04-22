@@ -5,18 +5,7 @@ const config = require("./config.json");
 client.login(config.token);
 
 client.once('ready', async () => {
-
-    console.log(`✅ - Logado em ${client.user.username} com sucesso!\nLogado em: ${Date.now()}`)
-  
-    /*let a1 = [
-     "100% em slash commands!",
-    "Use /help para ver meus comandos!",
-    "Sou um bot de economia!"],
-    i = 0;
-    setInterval(() => client.user.setActivity(`${a1[i++ % a1.length]}`,{
-    type: "WATCHING"}
-    ), 15000)*/
-
+    console.log(`✅ - Fui logado com sucesso no BOT: ${client.user.username}.`)
 })
 
 module.exports = client;
